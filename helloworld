@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>WEB 2 </title>
+        <style>
+            a {
+                color:black;
+            }
+            a[href="http://google.com"] {
+                color:blue;
+            }
+            button {
+                font-family:Arial,sans-serif;
+                font-size:20px;
+                color: green;
+            }
+            button:hover {
+                color:orange
+            }
+
+            @media (min-width : 802px) {
+                body {
+                    background-color: black;
+                }
+            }
+
+            @media (max-width : 801px) {
+                body {
+                    background-color:brown ;
+                }
+            }
+            #foo {
+                display:flex;
+                flex-wrap:wrap;
+            }
+            #foo > div {
+                background-color:springgreen;
+                font-size:20px;
+                margin:20px;
+                width:200px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <button>click here </button>
+
+        <div id="foo">
+            <div>1.peace and happiness can make your dreams in this world</div>
+            <div>2.peace and happiness can make your dreams in this world</div>
+            <div>3.peace and happiness can make your dreams in this world</div>
+            <div>4.peace and happiness can make your dreams in this world</div>
+            <div>5.peace and happiness can make your dreams in this world</div>
+        </div>
+        <ol style="font-family:Arial,sans-serif; color:whitesmoke;font-size:20px">
+            <li><a href="http://google.com">Google</a></li>
+            <li><a href="http://amazon.com">Amazone</a></li>
+            <ul style="color:red">
+                <li>sublist item one</li>
+                <li>sublist item two </li>
+            </ul>
